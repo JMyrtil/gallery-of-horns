@@ -1,0 +1,28 @@
+.animals {
+  border: 1px solid gray;
+  padding: 1vw;
+  margin-bottom: 1vw;
+  width: 19%;
+}
+.animals h2 {
+  font-size: 2vw;
+}
+.animals img {
+  width: 100%
+}
+.animals p {
+  font-size: 11px;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.animals p:last-of-type {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.animals p:last-of-type:hover {
+  color: purple;
+}
+.article-button {
+  margin: .2rem .1vw;
+}
