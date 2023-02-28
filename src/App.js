@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Moose from "./Moose";
+import Rhino from "./Rhino";
+import Xenokeryx from "./Xenokeryx";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  render() {
+    return (
+      <>
+        <header>
+          <h1>The Animal Kingdom</h1>
+        </header>
+        <main>
+          <Moose name="Moose"/>
+          <Rhino name="Rhino"/>
+          <Xenokeryx name="Xeno"/>
+        </main>
+        <footer>&copy; by Joel Myrtil</footer>
+      </>
+    );
+  }
 }
 
 export default App;
