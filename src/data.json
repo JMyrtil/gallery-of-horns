@@ -1,0 +1,14 @@
+[
+  { 
+    "name": "Moose",
+    "imageURL": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSAZJ5Gr5bhF2AsM5kb9q7-wyedkpKrOcVBJgyU6sRieMbXciPX3_gfxNNSgSPZgUpJ2143eZk8Cza2GZ4"
+  },
+  {
+    "name": "Rhino",
+    "imageURL": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTPJNqH_QuQmLvhl9zD9EIayG0ifP89PhMbGvbMmZXkzecnbv9Yo_gd95bf7Ylr42BD-hod9476OPNrkD4"
+  },
+  {
+    "name": "Xeno",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Xenokeryx_amidalae_restoration.jpg/1024px-Xenokeryx_amidalae_restoration.jpg"
+  }
+]
