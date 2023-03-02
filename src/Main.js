@@ -11,7 +11,10 @@ class Main extends React.Component {
         <Animals
           name={ani.name}
           imageURL={ani.imageURL}
+          addhearts={this.props.addhearts}
+          handleOpenModal={this.props.handleOpenModal}
           key={idx}
+          ani={ani}
         />
       )
     });
@@ -19,8 +22,8 @@ class Main extends React.Component {
       <main>
         {animals}
       </main>
-    );
-  }
+    )
+  };
 }
 
 export default Main;

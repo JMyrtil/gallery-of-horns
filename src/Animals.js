@@ -1,4 +1,5 @@
 import React from 'react';
+// import Button from 'react-bootstrap/Button';
 import './Animal.css';
 
 class Animals extends React.Component {
@@ -15,15 +16,20 @@ class Animals extends React.Component {
     });
   }
 
+  handleBlowUpClick = () => {
+    this.props.handleOpenModal(this.props.ani)
+  }
+
   render() {
     return (
-      <article>
+      <article className="animals">
         <h2>{this.props.name}</h2>
-        <p>{this.state.waves} interests</p>
-        <p onClick={this.handleWaves}>Check These Out</p>
+        <p>😱 {this.state.waves} Favorites</p>
+        <p onClick={this.handleWaves}>Ohh I Like This!!</p>
         <img
           src={this.props.imageURL}
           alt={this.props.name}
+          onClick={this.handleBlowUpClick}
         />
       </article>
     );
