@@ -11,6 +11,7 @@ class Main extends React.Component {
         <Animals
           name={ani.name}
           imageURL={ani.imageURL}
+          horns={ani.horns}
           addhearts={this.props.addhearts}
           handleOpenModal={this.props.handleOpenModal}
           key={idx}
